@@ -1,0 +1,52 @@
+.services-item {
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.services-item span i {
+  font-size: 2.2rem;
+  background: rgb(192, 179, 179);
+  padding: 10px;
+  border-radius: 50px;
+  color: azure;
+  font-weight: 400 !important;
+}
+.services-item h3 {
+  color: rgb(194, 136, 136);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.services-item p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .services-item span i {
+    font-size: 1.8rem;
+    padding: 5px;
+  }
+  .services-item h3 {
+    font-size: 1rem;
+  }
+  .services-item {
+    padding: 10px;
+    margin-bottom: 1.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .services-item span i {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .services-item {
+    padding: 20px;
+  }
+}
