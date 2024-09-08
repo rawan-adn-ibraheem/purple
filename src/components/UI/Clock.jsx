@@ -10,7 +10,7 @@ const Clock = () => {
   let interval;
 
   const countDown = () => {
-    const destination = new Date("Apr 30 , 2024").getTime();
+    const destination = new Date("December 30 , 2024").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -41,7 +41,7 @@ const Clock = () => {
 
   return (
     <div className="clock-wrapper d-flex align-items-center gap-3">
-      <div className="clock-data d-flex align-items-center gap-3">
+      <div className="-data d-flex align-items-center gap-3">
         <div className="text-center">
           <h1 className="text-white fs-3 mb-2">{days}</h1>
           <h5 className="text-white fs-6">Days</h5>
